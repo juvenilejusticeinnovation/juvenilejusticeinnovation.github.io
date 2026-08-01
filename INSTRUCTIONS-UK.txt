@@ -1,7 +1,7 @@
 ПОВНИЙ САЙТ ДЛЯ GITHUB PAGES
 
 Усі матеріали вже додані: логотип, фотографія Ганни Котик, 9 наукових статей,
-Model Juvenile Justice Act, Commentary та Analytical Report.
+Model Juvenile Justice Act, Commentary, Analytical Report, Google Scholar та favicon.
 
 Завантажте до кореня репозиторію juvenilejusticeinnovation.github.io:
 
@@ -14,7 +14,10 @@ contact.html
 CNAME
 robots.txt
 sitemap.xml
+site.webmanifest
+favicon.ico
 папку assets разом з усім її вмістом
+папку publications разом з усім її вмістом
 
 У Settings → Pages залиште:
 
@@ -22,8 +25,9 @@ Source: Deploy from a branch
 Branch: main
 Folder: /(root)
 
-Не змінюйте назви файлів або структуру папки assets, оскільки сторінки вже
-містять правильні посилання на логотип, фотографію та PDF-документи.
+Не змінюйте назви файлів або структуру папок assets і publications, оскільки
+сторінки вже містять правильні посилання на логотип, фотографію, PDF-документи,
+профіль Google Scholar та метадані для академічної індексації.
 
 Домен: juvenilejusticeinnovation.org
 Офіційна пошта: info@juvenilejusticeinnovation.org
