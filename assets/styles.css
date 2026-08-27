@@ -2187,3 +2187,9 @@ h3,
     scroll-behavior: auto;
   }
 }
+
+/* v11: current edition and publication archive */
+.version-archive { border-top: 1px solid rgba(11,47,71,.10); }
+.archive-suite .resource-card { box-shadow: none; border: 1px solid rgba(11,47,71,.12); }
+.archive-suite .resource-card::before { opacity: .45; }
+.research-edition-grid .featured-card { min-height: 280px; }
