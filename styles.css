@@ -2323,7 +2323,7 @@ h3,
 .event-about-grid h2 { margin-bottom: 22px; font-size: clamp(38px, 4.4vw, 54px); line-height: 1.15; font-weight: 500; }
 
 .event-presenter-card { overflow: hidden; background: var(--navy-950); box-shadow: var(--shadow); }
-.event-presenter-card img { width: 100%; height: 320px; object-fit: cover; object-position: center 28%; }
+.event-presenter-card img { display: block; width: 100%; height: auto; object-fit: contain; }
 .event-presenter-copy { padding: 29px 31px 31px; }
 .event-presenter-copy > span { color: var(--gold-200); font-size: 9px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 .event-presenter-copy h3 { margin: 8px 0 7px; color: var(--white); font-size: 29px; line-height: 1.2; }
@@ -2372,6 +2372,5 @@ h3,
   .event-feature-copy, .event-date-block, .event-registration-panel { padding: 27px 23px; }
   .event-facts, .event-topic-grid, .event-notice-grid { grid-template-columns: 1fr; }
   .event-topic-card { min-height: 0; }
-  .event-presenter-card img { height: 280px; }
+  .event-presenter-card img { height: auto; }
 }
-
