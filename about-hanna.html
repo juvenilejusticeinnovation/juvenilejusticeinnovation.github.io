@@ -1,125 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About Hanna Kotyk | Juvenile Justice Innovation Initiative</title>
-  <meta name="description" content="Learn about Hanna Kotyk, Founder and Managing Director of Juvenile Justice Innovation Initiative LLC, comparative legal researcher, and policy author." />
-  <link rel="canonical" href="https://juvenilejusticeinnovation.org/about-hanna.html" />
-  <meta property="og:title" content="About Hanna Kotyk" />
-  <meta property="og:description" content="Comparative legal researcher, policy author, and founder of Juvenile Justice Innovation Initiative LLC." />
-  <meta property="og:type" content="profile" />
-  <meta property="og:url" content="https://juvenilejusticeinnovation.org/about-hanna.html" />
-  <link rel="icon" href="favicon.ico" sizes="any" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
-  <link rel="manifest" href="site.webmanifest" />
-  <meta name="theme-color" content="#0b2f47" />
-  <link rel="stylesheet" href="assets/styles.css?v=14" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Hanna Kotyk",
-    "jobTitle": "Founder and Managing Director",
-    "affiliation": {
-      "@type": "Organization",
-      "name": "Juvenile Justice Innovation Initiative LLC",
-      "url": "https://juvenilejusticeinnovation.org/"
-    },
-    "url": "https://juvenilejusticeinnovation.org/about-hanna.html",
-    "sameAs": [
-      "https://scholar.google.com/citations?user=i1vOdFkAAAAJ&hl=en",
-      "https://orcid.org/0000-0001-6494-2273",
-      "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11811968"
-    ]
-  }
-  </script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>About Hanna Kotyk | Juvenile Justice Innovation Initiative LLC</title>
+<meta content="Hanna Kotyk, Founder and Executive Director of Juvenile Justice Innovation Initiative LLC, is a comparative legal researcher focused on juvenile justice and children's rights." name="description"/>
+<link href="https://juvenilejusticeinnovation.org/about-hanna.html" rel="canonical"/>
+<meta content="Hanna Kotyk | Juvenile Justice Innovation Initiative LLC" property="og:title"/>
+<meta content="Comparative legal researcher, policy author, and Founder and Executive Director of JJII LLC." property="og:description"/>
+<meta content="profile" property="og:type"/>
+<meta content="https://juvenilejusticeinnovation.org/about-hanna.html" property="og:url"/>
+<meta content="https://juvenilejusticeinnovation.org/assets/hanna-kotyk.jpg" property="og:image"/>
+<link href="https://juvenilejusticeinnovation.org/assets/styles.css?v=16" rel="stylesheet"/>
+<style>
+    /* Local page component styling, while retaining the site's existing stylesheet. */
+    .hanna-profile-grid{display:grid;grid-template-columns:minmax(250px,.8fr) minmax(0,1.6fr);gap:46px;align-items:start}
+    .hanna-portrait{position:relative;overflow:hidden;border-radius:8px;background:#173b52}
+    .hanna-portrait img{display:block;width:100%;height:auto}
+    .hanna-photo-caption{background:#143a52;color:#fff;padding:14px 20px}
+    .hanna-photo-caption strong{display:block;font-size:18px}
+    .hanna-photo-caption span{font-size:14px;color:#e2ebef}
+    .hanna-profile-details{display:grid;gap:12px;margin:26px 0}
+    .hanna-profile-detail{display:grid;grid-template-columns:145px 1fr;gap:16px;border-bottom:1px solid #d7e2e7;padding:12px 0}
+    .hanna-profile-detail strong{font-size:13px;text-transform:uppercase;color:#16405c}
+    .hanna-profiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:28px 0}
+    .hanna-profile-card{display:flex;flex-direction:column;justify-content:center;gap:7px;min-height:100px;border:1px solid #dce5e9;border-top:3px solid #cba568;border-radius:5px;background:#fff;padding:17px;text-decoration:none!important;transition:box-shadow .15s, transform .15s}
+    .hanna-profile-card:hover,.hanna-profile-card:focus-visible{box-shadow:0 9px 25px rgba(11,48,73,.14);transform:translateY(-2px)}
+    .hanna-profile-card strong{font-size:17px;color:#12364b}
+    .hanna-profile-card span{font-size:13px;color:#526b78}
+    .hanna-focus-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+    .hanna-focus-item{background:#fff;border:1px solid #dbe5e9;border-radius:5px;padding:24px}
+    .hanna-focus-item small{font-size:25px;color:#b59560}
+    .hanna-focus-item h3{margin:8px 0 10px}
+    .hanna-output-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:30px 0}
+    .hanna-output-card{background:#fff;border:1px solid #dae5e9;padding:25px;border-radius:5px;text-decoration:none!important;display:block}
+    .hanna-output-card h3{margin:10px 0;font-size:20px}
+    .hanna-output-card p{color:#4f6875}
+    @media(max-width:950px){.hanna-profiles{grid-template-columns:repeat(2,1fr)}.hanna-focus-grid{grid-template-columns:repeat(2,1fr)}.hanna-output-grid{grid-template-columns:1fr}}
+    @media(max-width:700px){.hanna-profile-grid{grid-template-columns:1fr}.hanna-profile-detail{grid-template-columns:1fr;gap:4px}.hanna-portrait{max-width:400px}.hanna-focus-grid{grid-template-columns:1fr}}
+  
+/* Reduce ONLY the large vertical break after 'View Research & Publications'. */
+.jjii-hanna-profile-section {padding-bottom:28px !important;}
+.jjii-hanna-research-section {padding-top:30px !important;}
+@media(max-width:700px) {
+ .jjii-hanna-profile-section {padding-bottom:22px !important;}
+ .jjii-hanna-research-section {padding-top:26px !important;}
+}
+</style>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Juvenile Justice Innovation Initiative home"><span class="brand-crop"><img src="assets/logo.png" alt="Juvenile Justice Innovation Initiative" /></span></a>
-      <nav class="desktop-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a class="active" href="about-hanna.html">About Hanna Kotyk</a><a href="about-initiative.html">About Juvenile Justice Innovation Initiative</a><a href="research.html">Research &amp; Publications</a><a href="model-act.html">Model Juvenile Justice Act</a><a href="events.html">Events</a>
-        <a href="contact.html">Contact</a></nav>
-      <details class="mobile-menu"><summary aria-label="Open navigation menu"><span></span><span></span><span></span></summary><nav aria-label="Mobile navigation"><a href="index.html">Home</a><a class="active" href="about-hanna.html">About Hanna Kotyk</a><a href="about-initiative.html">About Juvenile Justice Innovation Initiative</a><a href="research.html">Research &amp; Publications</a><a href="model-act.html">Model Juvenile Justice Act</a><a href="events.html">Events</a>
-        <a href="contact.html">Contact</a></nav></details>
-    </div>
-  </header>
-
-  <main id="main-content">
-    <section class="page-hero page-hero-compact">
-      <div class="container narrow">
-        <p class="breadcrumbs"><a href="index.html">Home</a> / About Hanna Kotyk</p>
-        <p class="section-label">Founder &amp; Managing Director</p>
-        <h1>Hanna Kotyk</h1>
-        <p class="lead">Comparative legal researcher and policy author working at the intersection of juvenile justice, child protection, legislative systematization, and evidence-informed institutional reform.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container profile-grid">
-        <div class="profile-photo"><img src="assets/hanna-kotyk.jpg" alt="Hanna Kotyk seated in a professional legal research setting" /></div>
-        <div class="profile-copy">
-          <p class="section-label">Profile</p>
-          <h2>Connecting comparative scholarship with practical legal-policy design.</h2>
-          <div class="prose">
-            <p>Hanna Kotyk is the Founder and Managing Director of Juvenile Justice Innovation Initiative LLC, the Michigan-based legal research and publishing company developing the National Juvenile Justice Legal Research &amp; Resource Platform.</p>
-            <p>Her research focuses on how legal systems organize, codify, and implement rules affecting children and young people. She examines juvenile justice and child-protection frameworks, international standards, legislative fragmentation, legal technique, and the design of practical tools that can support policy development and institutional decision-making.</p>
-            <p>Her current flagship project is the Model Juvenile Justice Act for States, a modular framework accompanied by detailed Commentary and an Analytical Report. The three-part suite connects model statutory language with interpretive guidance, implementation conditions, measurable indicators, and a pathway for state-level adaptation.</p>
-          </div>
-
-          <div class="credential-grid">
-            <div class="credential">
-              <strong>Education</strong>
-              <span>Master's degree in Law, National University “Odesa Law Academy”; U.S. educational evaluation confirms a Master's in Law equivalency. Hanna also completed postgraduate doctoral studies (aspirantura) at International Humanitarian University in Odesa, Ukraine. She completed the academic program but was unable to defend her dissertation after the full-scale war in Ukraine began.</span>
-              <strong class="credential-subheading">Dissertation Research</strong>
-              <span>Research topic: “Systematization and Codification of Juvenile Legislation of Ukraine”</span>
-            </div>
-            <div class="credential"><strong>Research Role</strong><span>Comparative Legal Researcher · Policy Author · Founder &amp; Managing Director</span></div>
-            <div class="credential"><strong>ORCID</strong><a href="https://orcid.org/0000-0001-6494-2273" target="_blank" rel="noopener">0000-0001-6494-2273 ↗</a></div>
-            <div class="credential"><strong>SSRN</strong><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11811968" target="_blank" rel="noopener">Author ID 11811968 ↗</a></div>
-            <div class="credential"><strong>Google Scholar</strong><a href="https://scholar.google.com/citations?user=i1vOdFkAAAAJ&amp;hl=en" target="_blank" rel="noopener">View public research profile ↗</a></div>
-          </div>
-
-          <a class="button button-primary" href="research.html">View Research &amp; Publications →</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-soft">
-      <div class="container two-column">
-        <div><p class="section-label">Research Focus</p><h2>A coherent body of work, not isolated publications.</h2></div>
-        <div class="output-list">
-          <article class="output-item"><span>01</span><div><h3>Juvenile justice reform</h3><p>Research on age standards, diversion, restorative approaches, transfer to adult court, procedural safeguards, and measurable system performance.</p></div></article>
-          <article class="output-item"><span>02</span><div><h3>Child protection and international standards</h3><p>Analysis of children's rights, international legal standards, trafficking prevention, and national legal implementation.</p></div></article>
-          <article class="output-item"><span>03</span><div><h3>Legislative systematization</h3><p>Work on codification, consolidation, incorporation, legal composition, and the organization of fragmented normative material.</p></div></article>
-          <article class="output-item"><span>04</span><div><h3>Practical policy tools</h3><p>Development of model statutory language, explanatory commentary, implementation analysis, comparative references, and research resources.</p></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-blue">
-      <div class="container">
-        <div class="section-heading"><p class="section-label light">Selected Outputs</p><h2>Research translated into usable formats.</h2><p>The Initiative organizes Hanna Kotyk's scholarship into materials that can be read, compared, adapted, and evaluated.</p></div>
-        <div class="featured-grid">
-          <a class="featured-card primary" href="model-act.html"><span class="card-type">Flagship Framework</span><h3>Model Juvenile Justice Act for States</h3><p>A complete twelve-module framework supported by Commentary and an Analytical Report.</p><span class="arrow-link">Explore the project</span></a>
-          <a class="featured-card" href="research.html"><span class="card-type">Scholarly Collection</span><h3>Nine Research Articles</h3><p>English-language research on juvenile legislation, legal systematization, child protection, and international standards.</p><span class="arrow-link">Browse publications</span></a>
-          <a class="featured-card" href="research.html#featured-presentation"><span class="card-type">Featured Presentation</span><h3>Protecting Children's Rights During Armed Conflict</h3><p>An 18-slide analysis of the case of Ukraine, international legal safeguards, and practical response pathways.</p><span class="arrow-link">View the presentation</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="integrity-band"><div class="container integrity-grid"><h2>Research and policy authorship, not legal practice.</h2><p>Hanna Kotyk is presented on this website as a comparative legal researcher and policy author. Juvenile Justice Innovation Initiative LLC is not a law firm and does not provide legal advice, attorney services, or legal representation.</p></div></section>
-    <section class="contact-band"><div class="container contact-band-inner"><h2>Connect regarding research or institutional collaboration.</h2><a class="button button-gold" href="contact.html">Contact Hanna and the Initiative →</a></div></section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-main"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-crop"><img src="assets/logo.png" alt="Juvenile Justice Innovation Initiative" /></span></a><p>Independent legal research and policy resources supporting a more effective and humane juvenile justice system.</p></div><div class="footer-links"><div><h3>Explore</h3><a href="about-hanna.html">About Hanna Kotyk</a><a href="about-initiative.html">About the Initiative</a><a href="research.html">Research &amp; Publications</a><a href="model-act.html">Model Juvenile Justice Act</a><a href="events.html">Events</a></div><div><h3>Contact</h3><a href="mailto:info@juvenilejusticeinnovation.org">info@juvenilejusticeinnovation.org</a><a href="tel:+15176481413">(517) 648-1413</a><span class="address">5223 Madison Ave, A07<br />Okemos, MI 48864</span></div></div></div>
-    <div class="container footer-bottom"><p>© <span data-current-year>2026</span> Juvenile Justice Innovation Initiative LLC. All rights reserved.</p><p>Juvenile Justice Innovation Initiative LLC is not a law firm and does not provide legal advice or legal representation.</p></div>
-  </footer>
-  <script src="assets/site.js"></script>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="Juvenile Justice Innovation Initiative home" class="brand" href="index.html">
+<span class="brand-crop"><img alt="Juvenile Justice Innovation Initiative" src="https://juvenilejusticeinnovation.org/assets/logo.png"/></span>
+</a>
+<nav aria-label="Primary navigation" class="desktop-nav">
+<a href="index.html">Home</a>
+<a class="active" href="about-hanna.html">About Hanna Kotyk</a>
+<a href="about-initiative.html">About Juvenile Justice Innovation Initiative</a>
+<a href="research.html">Research &amp; Publications</a>
+<a href="model-act.html">Model Juvenile Justice Act</a>
+<a href="events.html">Events</a>
+<a href="contact.html">Contact</a>
+</nav>
+<details class="mobile-menu">
+<summary aria-label="Open navigation menu"><span></span><span></span><span></span></summary>
+<nav aria-label="Mobile navigation">
+<a href="index.html">Home</a>
+<a class="active" href="about-hanna.html">About Hanna Kotyk</a>
+<a href="about-initiative.html">About Juvenile Justice Innovation Initiative</a>
+<a href="research.html">Research &amp; Publications</a>
+<a href="model-act.html">Model Juvenile Justice Act</a>
+<a href="events.html">Events</a>
+<a href="contact.html">Contact</a>
+</nav>
+</details>
+</div>
+</header>
+<main id="main-content">
+<section class="page-hero section-blue">
+<div class="container">
+<p class="eyebrow">Founder and Executive Director</p>
+<h1>Hanna Kotyk</h1>
+<p class="lead">Comparative legal researcher and policy author working at the intersection of juvenile justice, child protection, legislative systematization, and evidence-informed institutional reform.</p>
+</div>
+</section>
+<section class="section jjii-hanna-profile-section">
+<div class="container hanna-profile-grid">
+<aside>
+<div class="hanna-portrait">
+<img alt="Hanna Kotyk, Founder and Executive Director" src="https://juvenilejusticeinnovation.org/assets/hanna-kotyk.jpg"/>
+<div class="hanna-photo-caption"><strong>Hanna Kotyk</strong><span>Founder and Executive Director</span></div>
+</div>
+</aside>
+<div>
+<p class="section-label">Profile</p>
+<h2>Connecting comparative scholarship with practical legal-policy design.</h2>
+<div class="prose">
+<p>Hanna Kotyk is the Founder and Executive Director of Juvenile Justice Innovation Initiative LLC, the Michigan-based legal research and publishing company developing the National Juvenile Justice Legal Research &amp; Resource Platform.</p>
+<p>Her research focuses on how legal systems organize, codify, and implement rules affecting children and young people. She examines juvenile justice and child-protection frameworks, international standards, legislative fragmentation, legal technique, and the design of practical tools that can support policy development and institutional decision-making.</p>
+<p>Her current flagship project is the Model Juvenile Justice Act for States, a modular framework accompanied by detailed Commentary and an Analytical Report. The three-part suite connects model statutory language with interpretive guidance, implementation conditions, measurable indicators, and a pathway for state-level adaptation.</p>
+</div>
+<div class="hanna-profile-details">
+<div class="hanna-profile-detail"><strong>Education</strong><span>Master's degree in Law, National University “Odesa Law Academy”; U.S. educational evaluation confirms a Master's in Law equivalency. Hanna also completed postgraduate doctoral studies (aspirantura) at International Humanitarian University in Odesa, Ukraine. She completed the academic program but was unable to defend her dissertation after the full-scale war in Ukraine began.</span></div>
+<div class="hanna-profile-detail"><strong>Dissertation Research</strong><span>“Systematization and Codification of Juvenile Legislation of Ukraine”</span></div>
+<div class="hanna-profile-detail"><strong>Research Role</strong><span>Comparative Legal Researcher · Policy Author · Founder and Executive Director</span></div>
+</div>
+<div aria-label="External researcher profiles and webinar" class="hanna-profiles">
+<a class="hanna-profile-card" href="https://orcid.org/0000-0001-6494-2273" rel="noopener noreferrer" target="_blank"><strong>ORCID ↗</strong><span>0000-0001-6494-2273</span></a>
+<a class="hanna-profile-card" href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11811968" rel="noopener noreferrer" target="_blank"><strong>SSRN ↗</strong><span>Author ID 11811968</span></a>
+<a class="hanna-profile-card" href="https://scholar.google.com/citations?user=i1vOdFkAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank"><strong>Google Scholar ↗</strong><span>Public research profile</span></a>
+<a class="hanna-profile-card" href="https://zenodo.org/search?q=recid%3A%2824403867%20OR%2024404215%20OR%2024404448%20OR%2024404561%20OR%2023108332%20OR%2024405066%29" rel="noopener noreferrer" target="_blank"><strong>Zenodo ↗</strong><span>Hanna Kotyk publications and webinar archive</span></a>
+<a class="hanna-profile-card" href="https://www.youtube.com/watch?v=CzIqMeDChdA" rel="noopener noreferrer" target="_blank"><strong>YouTube ↗</strong><span>Watch JJII webinar · September 23, 2026</span></a>
+</div>
+<a class="button button-secondary" href="research.html">View Research &amp; Publications →</a>
+</div>
+</div>
+</section>
+<section class="section section-soft jjii-hanna-research-section">
+<div class="container">
+<div class="section-heading center"><p class="section-label">Research Focus</p><h2>A coherent body of work, not isolated publications.</h2></div>
+<div class="hanna-focus-grid">
+<article class="hanna-focus-item"><small>01</small><h3>Juvenile justice reform</h3><p>Research on age standards, diversion, restorative approaches, transfer to adult court, procedural safeguards, and measurable system performance.</p></article>
+<article class="hanna-focus-item"><small>02</small><h3>Child protection and international standards</h3><p>Analysis of children's rights, international legal standards, trafficking prevention, and national legal implementation.</p></article>
+<article class="hanna-focus-item"><small>03</small><h3>Legislative systematization</h3><p>Work on codification, consolidation, incorporation, legal composition, and the organization of fragmented normative material.</p></article>
+<article class="hanna-focus-item"><small>04</small><h3>Practical policy tools</h3><p>Development of model statutory language, explanatory commentary, implementation analysis, comparative references, and research resources.</p></article>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="container">
+<div class="section-heading center"><p class="section-label">Selected Outputs</p><h2>Research translated into usable formats.</h2><p>The Initiative organizes Hanna Kotyk's scholarship into materials that can be read, compared, adapted, and evaluated.</p></div>
+<div class="hanna-output-grid">
+<a class="hanna-output-card" href="model-act.html"><span class="section-label">Flagship Framework</span><h3>Model Juvenile Justice Act for States</h3><p>A complete twelve-module framework supported by Commentary and an Analytical Report.</p><span class="arrow-link">Explore the project →</span></a>
+<a class="hanna-output-card" href="research.html"><span class="section-label">Scholarly Collection</span><h3>Nine Research Articles</h3><p>English-language research on juvenile legislation, legal systematization, child protection, and international standards.</p><span class="arrow-link">Browse publications →</span></a>
+<a class="hanna-output-card" href="research.html"><span class="section-label">Featured Presentation</span><h3>Protecting Children's Rights During Armed Conflict</h3><p>An 18-slide analysis of the case of Ukraine, international legal safeguards, and practical response pathways.</p><span class="arrow-link">View the presentation →</span></a>
+</div>
+<div class="prose"><h3>Research and policy authorship, not legal practice.</h3><p>Hanna Kotyk is presented on this website as a comparative legal researcher and policy author. Juvenile Justice Innovation Initiative LLC is not a law firm and does not provide legal advice, attorney services, or legal representation.</p></div>
+</div>
+</section>
+<section class="contact-band">
+<div class="container contact-band-inner"><h2>Connect regarding research or institutional collaboration.</h2><a class="button button-gold" href="contact.html">Contact Hanna and the Initiative →</a></div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-main">
+<div class="footer-brand">
+<a class="brand" href="index.html"><span class="brand-crop"><img alt="Juvenile Justice Innovation Initiative" src="https://juvenilejusticeinnovation.org/assets/logo.png"/></span></a>
+<p>Independent legal research and policy resources supporting a more effective and humane juvenile justice system.</p>
+</div>
+<div class="footer-links">
+<div><h3>Explore</h3><a href="about-hanna.html">About Hanna Kotyk</a><a href="about-initiative.html">About the Initiative</a><a href="research.html">Research &amp; Publications</a><a href="model-act.html">Model Juvenile Justice Act</a><a href="events.html">Events</a></div>
+<div><h3>Contact</h3><a href="mailto:info@juvenilejusticeinnovation.org">info@juvenilejusticeinnovation.org</a><a href="tel:+15176481413">(517) 648-1413</a><span class="address">5223 Madison Ave, A07<br/>Okemos, MI 48864</span></div>
+</div>
+</div>
+<div class="container footer-bottom"><p>© <span data-current-year="">2026</span> Juvenile Justice Innovation Initiative LLC. All rights reserved.</p><p>Juvenile Justice Innovation Initiative LLC is not a law firm and does not provide legal advice or legal representation.</p></div>
+</footer>
+<script src="https://juvenilejusticeinnovation.org/assets/site.js"></script>
 </body>
 </html>
